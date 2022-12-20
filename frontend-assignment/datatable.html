@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Table</title>
+    <style>
+        body {
+            background-color: rgb(110, 237, 237);
+        }
+        table{
+background-color: rgb(170, 239, 239);
+        }
+        table, th, td {         
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+tbody  :hover{
+  background-color: azure;
+}
+tr :hover {
+    font-size: 18px;
+    font-weight: 8px;
+}
+tr:nth-child(12){
+    background-color: grey;
+}
+    </style>
+</head>
+<body >
+    <table  cellpadding="10" align="center">
+        <thead >
+           <tr>
+            <th al>SI.NO</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Nick Name</th>
+            <th>Father Name</th>
+            <th>Mother Name</th>
+            <th>No of Member</th>
+            <th>Adress</th>
+            <th>Date</th>
+            <th>Action</th>
+           </tr>
+        </thead>
+        <tbody align="center">
+            <tr>
+                <td>1</td>
+                <td>vishal</td>
+                <td>kumar</td>
+                <td>vishul</td>
+                <td>subhash</td>
+                <td>shakuntala devi</td>
+                <td>6</td>
+                <td>Meerut</td>
+                <td>16 / 12 / 2022</td>
+                <td>
+                    <button>Update</button>
+                    <button>Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>vishal</td>
+                <td>kumar</td>
+                <td>vishul</td>
+                <td>subhash</td>
+                <td>shakuntala devi</td>
+                <td>6</td>
+                <td>Meerut</td>
+                <td>16 / 12 / 2022</td>
+                <td>
+                    <button>Update</button>
+                    <button>Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>vishal</td>
+                <td>kumar</td>
+                <td>vishul</td>
+                <td>subhash</td>
+                <td>shakuntala devi</td>
+                <td>6</td>
+                <td>Meerut</td>
+                <td>16 / 12 / 2022</td>
+                <td>
+                    <button>Update</button>
+                    <button>Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>vishal</td>
+                <td>kumar</td>
+                <td>vishul</td>
+                <td>subhash</td>
+                <td>shakuntala devi</td>
+                <td>6</td>
+                <td>Meerut</td>
+                <td>16 / 12 / 2022</td>
+                <td>
+                    <button>Update</button>
+                    <button>Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>vishal</td>
+                <td>kumar</td>
+                <td>vishul</td>
+                <td>subhash</td>
+                <td>shakuntala devi</td>
+                <td>6</td>
+                <td>Meerut</td>
+                <td>16 / 12 / 2022</td>
+                <td>
+                    <button>Update</button>
+                    <button>Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>vishal</td>
+                <td>kumar</td>
+                <td>vishul</td>
+                <td>subhash</td>
+                <td>shakuntala devi</td>
+                <td>6</td>
+                <td>Meerut</td>
+                <td>16 / 12 / 2022</td>
+                <td>
+                    <button>Update</button>
+                    <button>Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>vishal</td>
+                <td>kumar</td>
+                <td>vishul</td>
+                <td>subhash</td>
+                <td>shakuntala devi</td>
+                <td>6</td>
+                <td>Meerut</td>
+                <td>16 / 12 / 2022</td>
+                <td>
+                    <button>Update</button>
+                    <button>Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>vishal</td>
+                <td>kumar</td>
+                <td>vishul</td>
+                <td>subhash</td>
+                <td>shakuntala devi</td>
+                <td>6</td>
+                <td>Meerut</td>
+                <td>16 / 12 / 2022</td>
+                <td>
+                    <button>Update</button>
+                    <button>Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>vishal</td>
+                <td>kumar</td>
+                <td>vishul</td>
+                <td>subhash</td>
+                <td>shakuntala devi</td>
+                <td>6</td>
+                <td>Meerut</td>
+                <td>16 / 12 / 2022</td>
+                <td>
+                    <button>Update</button>
+                    <button>Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>vishal</td>
+                <td>kumar</td>
+                <td>vishul</td>
+                <td>subhash</td>
+                <td>shakuntala devi</td>
+                <td>6</td>
+                <td>Meerut</td>
+                <td>16 / 12 / 2022</td>
+                <td>
+                    <button>Update</button>
+                    <button>Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>vishal</td>
+                <td>kumar</td>
+                <td>vishul</td>
+                <td>subhash</td>
+                <td>shakuntala devi</td>
+                <td>6</td>
+                <td>Meerut</td>
+                <td>16 / 12 / 2022</td>
+                <td>
+                    <button>Update</button>
+                    <button>Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>vishal</td>
+                <td>kumar</td>
+                <td>vishul</td>
+                <td>subhash</td>
+                <td>shakuntala devi</td>
+                <td>6</td>
+                <td>Meerut</td>
+                <td>16 / 12 / 2022</td>
+                <td>
+                    <button>Update</button>
+                    <button>Delete</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>14</td>
+                <td>vishal</td>
+                <td>kumar</td>
+                <td>vishul</td>
+                <td>subhash</td>
+                <td>shakuntala devi</td>
+                <td>6</td>
+                <td>Meerut</td>
+                <td>16 / 12 / 2022</td>
+                <td>
+                    <button>Update</button>
+                    <button>Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td>15</td>
+                <td>vishal</td>
+                <td>kumar</td>
+                <td>vishul</td>
+                <td>subhash</td>
+                <td>shakuntala devi</td>
+                <td>6</td>
+                <td>Meerut</td>
+                <td>16 / 12 / 2022</td>
+                <td>
+                    <button>Update</button>
+                    <button>Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td>16</td>
+                <td>vishal</td>
+                <td>kumar</td>
+                <td>vishul</td>
+                <td>subhash</td>
+                <td>shakuntala devi</td>
+                <td>6</td>
+                <td>Meerut</td>
+                <td>16 / 12 / 2022</td>
+                <td>
+                    <button>Update</button>
+                    <button>Delete</button>
+                </td>
+            </tr>
+             <tr>
+                <td>17</td>
+                <td>vishal</td>
+                <td>kumar</td>
+                <td>vishul</td>
+                <td>subhash</td>
+                <td>shakuntala devi</td>
+                <td>6</td>
+                <td>Meerut</td>
+                <td>16 / 12 / 2022</td>
+                <td>
+                    <button>Update</button>
+                    <button>Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td>17</td>
+                <td>vishal</td>
+                <td>kumar</td>
+                <td>vishul</td>
+                <td>subhash</td>
+                <td>shakuntala devi</td>
+                <td>6</td>
+                <td>Meerut</td>
+                <td>16 / 12 / 2022</td>
+                <td>
+                    <button>Update</button>
+                    <button>Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td>17</td>
+                <td>vishal</td>
+                <td>kumar</td>
+                <td>vishul</td>
+                <td>subhash</td>
+                <td>shakuntala devi</td>
+                <td>6</td>
+                <td>Meerut</td>
+                <td>16 / 12 / 2022</td>
+                <td>
+                    <button>Update</button>
+                    <button>Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td>17</td>
+                <td>vishal</td>
+                <td>kumar</td>
+                <td>vishul</td>
+                <td>subhash</td>
+                <td>shakuntala devi</td>
+                <td>6</td>
+                <td>Meerut</td>
+                <td>16 / 12 / 2022</td>
+                <td>
+                    <button>Update</button>
+                    <button>Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td>17</td>
+                <td>vishal</td>
+                <td>kumar</td>
+                <td>vishul</td>
+                <td>subhash</td>
+                <td>shakuntala devi</td>
+                <td>6</td>
+                <td>Meerut</td>
+                <td>16 / 12 / 2022</td>
+                <td>
+                    <button>Update</button>
+                    <button>Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td>17</td>
+                <td>vishal</td>
+                <td>kumar</td>
+                <td>vishul</td>
+                <td>subhash</td>
+                <td>shakuntala devi</td>
+                <td>6</td>
+                <td>Meerut</td>
+                <td>16 / 12 / 2022</td>
+                <td>
+                    <button>Update</button>
+                    <button>Delete</button>
+                </td>
+            </tr>
+
+             <tr>
+                <td>17</td>
+                <td>vishal</td>
+                <td>kumar</td>
+                <td>vishul</td>
+                <td>subhash</td>
+                <td>shakuntala devi</td>
+                <td>6</td>
+                <td>Meerut</td>
+                <td>16 / 12 / 2022</td>
+                <td>
+                    <button>Update</button>
+                    <button>Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td>17</td>
+                <td>vishal</td>
+                <td>kumar</td>
+                <td>vishul</td>
+                <td>subhash</td>
+                <td>shakuntala devi</td>
+                <td>6</td>
+                <td>Meerut</td>
+                <td>16 / 12 / 2022</td>
+                <td>
+                    <button>Update</button>
+                    <button>Delete</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>17</td>
+                <td>vishal</td>
+                <td>kumar</td>
+                <td>vishul</td>
+                <td>subhash</td>
+                <td>shakuntala devi</td>
+                <td>6</td>
+                <td>Meerut</td>
+                <td>16 / 12 / 2022</td>
+                <td>
+                    <button>Update</button>
+                    <button>Delete</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>17</td>
+                <td>vishal</td>
+                <td>kumar</td>
+                <td>vishul</td>
+                <td>subhash</td>
+                <td>shakuntala devi</td>
+                <td>6</td>
+                <td>Meerut</td>
+                <td>16 / 12 / 2022</td>
+                <td>
+                    <button>Update</button>
+                    <button>Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td>17</td>
+                <td>vishal</td>
+                <td>kumar</td>
+                <td>vishul</td>
+                <td>subhash</td>
+                <td>shakuntala devi</td>
+                <td>6</td>
+                <td>Meerut</td>
+                <td>16 / 12 / 2022</td>
+                <td>
+                    <button>Update</button>
+                    <button>Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td>17</td>
+                <td>vishal</td>
+                <td>kumar</td>
+                <td>vishul</td>
+                <td>subhash</td>
+                <td>shakuntala devi</td>
+                <td>6</td>
+                <td>Meerut</td>
+                <td>16 / 12 / 2022</td>
+                <td>
+                    <button>Update</button>
+                    <button>Delete</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>17</td>
+                <td>vishal</td>
+                <td>kumar</td>
+                <td>vishul</td>
+                <td>subhash</td>
+                <td>shakuntala devi</td>
+                <td>6</td>
+                <td>Meerut</td>
+                <td>16 / 12 / 2022</td>
+                <td>
+                    <button>Update</button>
+                    <button>Delete</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

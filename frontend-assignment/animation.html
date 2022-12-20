@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Animation</title>
+        <style>
+            body {
+                background-color: black;
+            }
+
+            .box {
+                height: 80px;
+                width: 80px;
+                background-color: aliceblue;
+                position: absolute;
+                animation: movebox;
+                animation-duration: 10s;
+                animation-iteration-count: infinite;
+            }
+
+            @keyframes movebox {
+                0% {
+                    transform: scaleX(0);
+                }
+
+                100% {
+                    transform: scaleX(11);
+                }
+            }
+            #box2 {
+                height: 100px;
+                width: 100px;;
+                background-color: aqua;
+                margin: 100px;
+                display: block;
+            }
+           .box2:hover{
+                height: 100px;
+                width: 100px;;
+                background-color: aqua;
+                margin: 100px;
+                display: block;
+                align-items: center;
+                position: absolute;
+                animation: colorChange;
+                animation-duration: 5s;
+                animation-iteration-count: infinite;
+            }
+            @keyframes colorChange {
+                from {
+                    background-color: aqua;
+                    height: 100px;
+                }
+                to {
+                    background-color: rgb(6, 43, 31);
+                    height:0;
+                }
+            }
+           .box3{
+                height: 100px;
+                width: 100px;
+                margin-left: 100px;
+                background-color: red;
+            }
+            #box3 {
+                border:2px solid white;
+                border-top-left-radius: 50%;
+                border-bottom-right-radius: 50%;
+            }
+            .innerBox {
+                height: 100px;
+                width: 100px;
+                background-color: rgb(12, 223, 47);
+            }
+            #move :hover{
+                background-color: red;
+            }
+            #move:hover{
+                background-color: rgb(12, 223, 47);
+            }
+            @media screen and (min-Width:600px) and (max-Width:780px){
+                body {
+                    background-color: blanchedalmond;
+                }
+            }
+        </style>
+    </head>
+
+    <body>
+       <center> <div class="box"></div></center><br>
+        <div class="box2" id="box2"></div>
+        <div class="box3" id="move">
+            <div class="innerBox" id="box3"></div>
+        </div>
+        <center
+    </body>
+
+</html>

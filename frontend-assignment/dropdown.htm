@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DropDown</title>
+    <style>
+        .dropdown{
+            position: relative;
+            display: inline-block;
+        }
+        button {
+            background-color: aquamarine;
+            border: 0;
+            height: 50px;
+            width: 300px;
+        }
+        .dropdown-content {
+            display: none;
+            height: auto;
+            width: 300px;
+            background-color: aqua;
+            position: relative;
+            top:0;
+        }
+        .dropdown:hover .dropdown-content{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="dropdown">
+        <button>DROPDOWN</button>
+        <div class="dropdown-content">
+            <a href="#">Link1</a>
+            <a href="#">Link2</a>
+            <a href="#">Link4</a>
+            <a href="#">Link5</a>
+            <a href="#">Link6</a>
+            <a href="#">Link7</a>
+        </div>
+    </div>
+</body>
+</html>

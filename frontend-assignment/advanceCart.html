@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Advance Cart Page</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            .cart {
+                height: 600px;
+                overflow: hidden;
+                overflow-y: scroll;
+            }
+            .cart-body {
+                height: 500px;
+                width: auto;
+                padding-left: 70px;
+                padding-right: 30px;
+                padding-top:40px;
+                padding-bottom: 40px;
+                justify-content: center;
+                float: left;
+            }
+
+            .cart-item {
+                height: 380px;
+                width: 300px;
+                border-top: 3px solid grey;
+                background-color: rgb(148, 155, 155);
+                box-shadow: 0 4px 8px 0 rgba(247, 241, 241, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            }
+            .cart-item:hover{
+                height: 380px;
+                width: 300px;
+                background-color: aquamarine;
+                opacity: 0.4;
+            }
+            .cart-details {
+                height: 90px;
+                width: 260px;
+                background-color: rgb(236, 236, 244);
+                padding: 20px;
+                font-size: 15px;
+                font-weight: 700;
+                border-bottom: 3px solid grey;
+                border-bottom-left-radius: 20px;
+                border-bottom-right-radius: 20px;
+            }
+
+            img {
+                height: 380px;
+                width: 300px;
+            }
+
+            .title {
+                color: #393c45;
+            }
+
+            .price {
+                float: right;
+                font-size: 22px;
+                font-weight: 600;
+                color: #393c45;
+            }
+
+            .type {
+                color: #b1b1b3;
+                font-size: 20px;
+            }
+            .size {
+                font-size: medium;
+                margin-top: 5px;
+                color: #b1b1b3;
+                font-weight: bold;
+            }
+            button {
+                height: 35px;
+                width: 80%;
+                background-color: white;
+                border: 3px  solid grey;
+                border-radius: 22px;
+                align-items: center;
+                color: #393c45;
+                font-size: 15px;
+                font-weight: 700;
+                margin-top: 10px;
+                margin-left: 25px;
+                
+            }
+            button:hover {
+                color: white;
+                background-color: grey;
+                border: 3px solid #393c45; ;
+                border-radius: 22px;
+                box-shadow: 0 4px 8px 0 rgba(247, 241, 241, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                cursor:pointer;
+            }
+             @media screen and (min-width:365px) and (max-width:715px) {
+                .cart-body {
+                height: 500px;
+                width: auto;
+                padding-left: 30px;
+                padding-right: 0px;
+                padding-top:40px;
+                padding-bottom: 40px;
+                justify-content: center;
+                align-items: center;
+                float: left;
+            }
+             }
+        </style>
+    </head>
+
+    <body>
+        <section class="cart">
+            <div class="cart-body">
+                <div class="cart-item">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/1.jpg">
+                </div>
+                <div class="cart-details">
+                    <span class="title">FLUTED HEM DRESS</span>
+                    <span class="price">$35</span>
+                    <p class="type">Summer dress </p>
+                    <p class="title">SIZES</p>
+                    <p class="size">XS S  M  L  XL  XXL</p>
+                   <div class = "btn">
+                    <button><p>Add To Cart</p></button>
+                   </div>
+                </div>
+                
+            </div>
+            <div class="cart-body">
+                <div class="cart-item">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/1.jpg">
+                </div>
+                <div class="cart-details">
+                    <span class="title">FLUTED HEM DRESS</span>
+                    <span class="price">$35</span>
+                    <p class="type">Summer dress </p>
+                    <p class="title">SIZES</p>
+                    <p class="size">XS S  M  L  XL  XXL</p>
+                   <div class = "btn">
+                    <button><p>Add To Cart</p></button>
+                   </div>
+                </div>
+                
+            </div>
+            <div class="cart-body">
+                <div class="cart-item">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/1.jpg">
+                </div>
+                <div class="cart-details">
+                    <span class="title">FLUTED HEM DRESS</span>
+                    <span class="price">$35</span>
+                    <p class="type">Summer dress </p>
+                    <p class="title">SIZES</p>
+                    <p class="size">XS S  M  L  XL  XXL</p>
+                   <div class = "btn">
+                    <button><p>Add To Cart</p></button>
+                   </div>
+                </div>
+                
+            </div>
+            <div class="cart-body">
+                <div class="cart-item">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/1.jpg">
+                </div>
+                <div class="cart-details">
+                    <span class="title">FLUTED HEM DRESS</span>
+                    <span class="price">$35</span>
+                    <p class="type">Summer dress </p>
+                    <p class="title">SIZES</p>
+                    <p class="size">XS S  M  L  XL  XXL</p>
+                   <div class = "btn">
+                    <button><p>Add To Cart</p></button>
+                   </div>
+                </div>
+                
+            </div>
+            <div class="cart-body">
+                <div class="cart-item">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/1.jpg">
+                </div>
+                <div class="cart-details">
+                    <span class="title">FLUTED HEM DRESS</span>
+                    <span class="price">$35</span>
+                    <p class="type">Summer dress </p>
+                    <p class="title">SIZES</p>
+                    <p class="size">XS S  M  L  XL  XXL</p>
+                   <div class = "btn">
+                    <button><p>Add To Cart</p></button>
+                   </div>
+                </div>
+                
+            </div>
+            <div class="cart-body">
+                <div class="cart-item">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/1.jpg">
+                </div>
+                <div class="cart-details">
+                    <span class="title">FLUTED HEM DRESS</span>
+                    <span class="price">$35</span>
+                    <p class="type">Summer dress </p>
+                    <p class="title">SIZES</p>
+                    <p class="size">XS S  M  L  XL  XXL</p>
+                   <div class = "btn">
+                    <button><p>Add To Cart</p></button>
+                   </div>
+                </div>
+                
+            </div>
+            <div class="cart-body">
+                <div class="cart-item">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/1.jpg">
+                </div>
+                <div class="cart-details">
+                    <span class="title">FLUTED HEM DRESS</span>
+                    <span class="price">$35</span>
+                    <p class="type">Summer dress </p>
+                    <p class="title">SIZES</p>
+                    <p class="size">XS S  M  L  XL  XXL</p>
+                   <div class = "btn">
+                    <button><p>Add To Cart</p></button>
+                   </div>
+                </div>
+                
+            </div>
+
+              <div class="cart-body">
+                <div class="cart-item">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/1.jpg">
+                </div>
+                <div class="cart-details">
+                    <span class="title">FLUTED HEM DRESS</span>
+                    <span class="price">$35</span>
+                    <p class="type">Summer dress </p>
+                    <p class="title">SIZES</p>
+                    <p class="size">XS S  M  L  XL  XXL</p>
+                   <div class = "btn">
+                    <button><p>Add To Cart</p></button>
+                   </div>
+                </div>
+                
+            </div>
+            <div class="cart-body">
+                <div class="cart-item">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/1.jpg">
+                </div>
+                <div class="cart-details">
+                    <span class="title">FLUTED HEM DRESS</span>
+                    <span class="price">$35</span>
+                    <p class="type">Summer dress </p>
+                    <p class="title">SIZES</p>
+                    <p class="size">XS S  M  L  XL  XXL</p>
+                   <div class = "btn">
+                    <button><p>Add To Cart</p></button>
+                   </div>
+                </div>
+                
+            </div>
+            <div class="cart-body">
+                <div class="cart-item">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/1.jpg">
+                </div>
+                <div class="cart-details">
+                    <span class="title">FLUTED HEM DRESS</span>
+                    <span class="price">$35</span>
+                    <p class="type">Summer dress </p>
+                    <p class="title">SIZES</p>
+                    <p class="size">XS S  M  L  XL  XXL</p>
+                   <div class = "btn">
+                    <button><p>Add To Cart</p></button>
+                   </div>
+                </div>
+                
+            </div>
+            <div class="cart-body">
+                <div class="cart-item">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/1.jpg">
+                </div>
+                <div class="cart-details">
+                    <span class="title">FLUTED HEM DRESS</span>
+                    <span class="price">$35</span>
+                    <p class="type">Summer dress </p>
+                    <p class="title">SIZES</p>
+                    <p class="size">XS S  M  L  XL  XXL</p>
+                   <div class = "btn">
+                    <button><p>Add To Cart</p></button>
+                   </div>
+                </div>
+                
+            </div>
+            <div class="cart-body">
+                <div class="cart-item">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/1.jpg">
+                </div>
+                <div class="cart-details">
+                    <span class="title">FLUTED HEM DRESS</span>
+                    <span class="price">$35</span>
+                    <p class="type">Summer dress </p>
+                    <p class="title">SIZES</p>
+                    <p class="size">XS S  M  L  XL  XXL</p>
+                   <div class = "btn">
+                    <button><p>Add To Cart</p></button>
+                   </div>
+                </div>
+                
+            </div>
+
+            <div class="cart-body">
+                <div class="cart-item">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/1.jpg">
+                </div>
+                <div class="cart-details">
+                    <span class="title">FLUTED HEM DRESS</span>
+                    <span class="price">$35</span>
+                    <p class="type">Summer dress </p>
+                    <p class="title">SIZES</p>
+                    <p class="size">XS S  M  L  XL  XXL</p>
+                   <div class = "btn">
+                    <button><p>Add To Cart</p></button>
+                   </div>
+                </div>
+                
+            </div>
+            <div class="cart-body">
+                <div class="cart-item">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/1.jpg">
+                </div>
+                <div class="cart-details">
+                    <span class="title">FLUTED HEM DRESS</span>
+                    <span class="price">$35</span>
+                    <p class="type">Summer dress </p>
+                    <p class="title">SIZES</p>
+                    <p class="size">XS S  M  L  XL  XXL</p>
+                   <div class = "btn">
+                    <button><p>Add To Cart</p></button>
+                   </div>
+                </div>
+                
+            </div>
+            <div class="cart-body">
+                <div class="cart-item">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/1.jpg">
+                </div>
+                <div class="cart-details">
+                    <span class="title">FLUTED HEM DRESS</span>
+                    <span class="price">$35</span>
+                    <p class="type">Summer dress </p>
+                    <p class="title">SIZES</p>
+                    <p class="size">XS S  M  L  XL  XXL</p>
+                   <div class = "btn">
+                    <button><p>Add To Cart</p></button>
+                   </div>
+                </div>
+                
+            </div>
+            <div class="cart-body">
+                <div class="cart-item">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/1.jpg">
+                </div>
+                <div class="cart-details">
+                    <span class="title">FLUTED HEM DRESS</span>
+                    <span class="price">$35</span>
+                    <p class="type">Summer dress </p>
+                    <p class="title">SIZES</p>
+                    <p class="size">XS S  M  L  XL  XXL</p>
+                   <div class = "btn">
+                    <button><p>Add To Cart</p></button>
+                   </div>
+                </div>
+                
+            </div>
+
+            <div class="cart-body">
+                <div class="cart-item">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/1.jpg">
+                </div>
+                <div class="cart-details">
+                    <span class="title">FLUTED HEM DRESS</span>
+                    <span class="price">$35</span>
+                    <p class="type">Summer dress </p>
+                    <p class="title">SIZES</p>
+                    <p class="size">XS S  M  L  XL  XXL</p>
+                   <div class = "btn">
+                    <button><p>Add To Cart</p></button>
+                   </div>
+                </div>
+                
+            </div>
+            <div class="cart-body">
+                <div class="cart-item">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/1.jpg">
+                </div>
+                <div class="cart-details">
+                    <span class="title">FLUTED HEM DRESS</span>
+                    <span class="price">$35</span>
+                    <p class="type">Summer dress </p>
+                    <p class="title">SIZES</p>
+                    <p class="size">XS S  M  L  XL  XXL</p>
+                   <div class = "btn">
+                    <button><p>Add To Cart</p></button>
+                   </div>
+                </div>
+                
+            </div>
+            <div class="cart-body">
+                <div class="cart-item">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/1.jpg">
+                </div>
+                <div class="cart-details">
+                    <span class="title">FLUTED HEM DRESS</span>
+                    <span class="price">$35</span>
+                    <p class="type">Summer dress </p>
+                    <p class="title">SIZES</p>
+                    <p class="size">XS S  M  L  XL  XXL</p>
+                   <div class = "btn">
+                    <button><p>Add To Cart</p></button>
+                   </div>
+                </div>
+                
+            </div>
+            <div class="cart-body">
+                <div class="cart-item">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/1.jpg">
+                </div>
+                <div class="cart-details">
+                    <span class="title">FLUTED HEM DRESS</span>
+                    <span class="price">$35</span>
+                    <p class="type">Summer dress </p>
+                    <p class="title">SIZES</p>
+                    <p class="size">XS S  M  L  XL  XXL</p>
+                   <div class = "btn">
+                    <button><p>Add To Cart</p></button>
+                   </div>
+                </div>
+                
+            </div>
+
+            <div class="cart-body">
+                <div class="cart-item">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/1.jpg">
+                </div>
+                <div class="cart-details">
+                    <span class="title">FLUTED HEM DRESS</span>
+                    <span class="price">$35</span>
+                    <p class="type">Summer dress </p>
+                    <p class="title">SIZES</p>
+                    <p class="size">XS S  M  L  XL  XXL</p>
+                   <div class = "btn">
+                    <button><p>Add To Cart</p></button>
+                   </div>
+                </div>
+                
+            </div>
+            <div class="cart-body">
+                <div class="cart-item">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/1.jpg">
+                </div>
+                <div class="cart-details">
+                    <span class="title">FLUTED HEM DRESS</span>
+                    <span class="price">$35</span>
+                    <p class="type">Summer dress </p>
+                    <p class="title">SIZES</p>
+                    <p class="size">XS S  M  L  XL  XXL</p>
+                   <div class = "btn">
+                    <button><p>Add To Cart</p></button>
+                   </div>
+                </div>
+                
+            </div>
+            <div class="cart-body">
+                <div class="cart-item">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/1.jpg">
+                </div>
+                <div class="cart-details">
+                    <span class="title">FLUTED HEM DRESS</span>
+                    <span class="price">$35</span>
+                    <p class="type">Summer dress </p>
+                    <p class="title">SIZES</p>
+                    <p class="size">XS S  M  L  XL  XXL</p>
+                   <div class = "btn">
+                    <button><p>Add To Cart</p></button>
+                   </div>
+                </div>
+                
+            </div>
+
+            <div class="cart-body">
+                <div class="cart-item">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/1.jpg">
+                </div>
+                <div class="cart-details">
+                    <span class="title">FLUTED HEM DRESS</span>
+                    <span class="price">$35</span>
+                    <p class="type">Summer dress </p>
+                    <p class="title">SIZES</p>
+                    <p class="size">XS S  M  L  XL  XXL</p>
+                   <div class = "btn">
+                    <button><p>Add To Cart</p></button>
+                   </div>
+                </div>
+                
+            </div>
+            <div class="cart-body">
+                <div class="cart-item">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/1.jpg">
+                </div>
+                <div class="cart-details">
+                    <span class="title">FLUTED HEM DRESS</span>
+                    <span class="price">$35</span>
+                    <p class="type">Summer dress </p>
+                    <p class="title">SIZES</p>
+                    <p class="size">XS S  M  L  XL  XXL</p>
+                   <div class = "btn">
+                    <button><p>Add To Cart</p></button>
+                   </div>
+                </div>
+                
+            </div>
+        </section>
+    </body>
+
+</html>

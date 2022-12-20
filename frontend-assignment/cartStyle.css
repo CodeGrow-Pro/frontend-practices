@@ -1,0 +1,107 @@
+body {
+    align-items: center;
+    padding-left: 40px;
+}
+
+.cart {
+    height: 400px;
+    width: auto;
+    background-color: rgb(255, 253, 253);
+    padding: 20px;
+    color: #a19d9d;
+    align-items: center;
+    float: left;
+}
+
+.cart :hover {
+    color: white;
+    background-color: #a19d9d;
+    background-image: linear-gradient(to right, rgb(157, 150, 150), #524f4f);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.cart-tag {
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.cart-item {
+    height: 350px;
+    width: 250px;
+    background-color: white;
+    padding: 10px;
+    border-top-left-radius: 8%;
+    border-top-right-radius: 8%;
+    box-shadow: 0 4px 8px 0 rgba(247, 241, 241, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+.cart-image img {
+    height: 175px;
+    width: 250px;
+    border-radius: 10%;
+    border-bottom: 5px solid rgb(188, 194, 188);
+}
+
+.cart-image {
+    background-color: #ffffff;
+    height: 175px;
+    width: auto;
+    border-radius: 25%;
+}
+
+.cart-name {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    display: block;
+    align-content: center;
+}
+
+.p1 {
+    display: inline;
+    text-align: left;
+    float: left;
+}
+
+.p2 {
+    display: inline;
+    text-align: right;
+    float: right;
+}
+
+.cart-name button {
+    height: 1.8pc;
+    width: 170px;
+    color: rgb(118, 113, 113);
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px solid #a19d9d;
+    border-radius: 10px !important;
+    background-color: rgb(179, 172, 172);
+    animation: buttonEffect;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes buttonEffect {
+    0% {
+        background-color: white;
+    }
+
+    50% {
+        background-color: #a19d9d;
+    }
+
+    75% {
+        background-color: #ffffff;
+    }
+
+    100% {
+        background-color: #a19d9d;
+    }
+}

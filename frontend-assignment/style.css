@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+    text-decoration: underline dashed;
+    font-family:'Pacifico', cursive;
+}
+div{
+    background-color: aliceblue;
+    height: 100px;
+    width: auto;
+    padding-top: 10px;
+    padding-inline-start: 10px;
+}

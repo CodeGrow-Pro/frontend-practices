@@ -1,0 +1,33 @@
+/* p {
+    color:darkblue;
+}
+div input {
+    color: brown;
+}
+.div {/* spacication - 2
+    background-color: aqua;
+} 
+*/
+*{
+    box-sizing: border-box;
+}
+/* use variables */
+ div{
+    border: 5px solid black;
+    padding: 10px;
+    margin: 15px;
+    width: 300px;
+    height: 400px;
+    --x: red;
+    background-color: var(--x);
+ }
+ div p {
+    --bgcolor :white;
+      color:var(--bgcolor,black);
+ }
+ p {
+    font-size: calc(30px + 2vw);
+ }
+ /* 
+ 
+ */

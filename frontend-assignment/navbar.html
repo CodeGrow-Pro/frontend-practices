@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diffrent type of nav bar</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+  <style>
+      *{
+        padding:0px;
+        margin:0px
+    }
+    .navbar {
+        height: 2pc;
+        background-color: rgb(136, 133, 133,0.9);
+        align-items: center;
+        text-align: right;
+        align-content: right;
+        padding: 10px;
+        overflow: hidden;
+        position: fixed;
+        width: 100%;
+        box-shadow: 0 4px 8px 0 rgb(237, 233, 233), 0 6px 20px 0 rgba(82, 80, 80, 0.927);
+
+    }
+    .navbar ul {
+        color: white;
+        list-style-type: none;
+        font-size: 20px;
+    }
+    li {
+        float: left;
+        display: block;
+    }
+    li a {
+        text-decoration: none;
+        color:white;
+        padding: 15px;
+        text-align: center;
+        align-items: right;
+    }
+    li.active {
+        background-color: rgb(134, 131, 131);
+    }
+    .navbar ul li:hover:not(.active) {
+        background-color: rgb(90, 87, 87);
+        border: 2px solid white;
+        border-radius: 2pc;
+    }
+    /* navbar 2 css */
+    .navbar2 ul {
+        background-color: black;
+        margin:0;
+        padding:0;
+        font-size: large;
+        font-weight: bold;
+        overflow: hidden;
+       position: fixed;
+       width: 100%;
+       bottom: 0;
+    }
+    .navbar2 ul li a {
+        display: block;
+        padding: 15px 20px;
+        border-right: 1px solid white;
+    }
+    .navbar2 ul li a:hover{
+        color: black;
+        background-color: white;
+    }
+    .divs {
+        height: 1000px;
+        width: auto;
+        background-color: blue;
+    }
+  </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+                <ul >
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Service</a> </li>
+                    <li><a href="#">Shop</a> </li>
+                    <li><a href="#">Contact</a> </li>
+                </ul>
+        </div>
+        <div class="navbar2">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Service</a> </li>
+                <li><a href="#">Shop</a> </li>
+                <li><a href="#">Contact</a> </li>
+                <!-- <li><div>
+                    <a href="#">Link1</a>
+                    <a href="#">Link2</a>
+                    <a href="#">Link4</a>
+                    <a href="#">Link5</a>
+                    <a href="#">Link6</a>
+                    <a href="#">Link7</a>
+                </div></li> -->
+            </ul>
+        </div>
+    </header>
+</body>
+</html>

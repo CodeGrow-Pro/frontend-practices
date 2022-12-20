@@ -1,0 +1,8 @@
+.table1{
+    border: 2px solid black;
+    background-color: antiquewhite;
+    columns: 5;
+}
+p{
+    color: blue;
+}
