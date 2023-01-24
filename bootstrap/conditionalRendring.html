@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>condtional rendring</title>
+</head>
+<body>
+    <h1>Welcome to  Relevel</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima quas temporibus vitae? Adipisci et ipsum a exercitationem quibusdam, eum praesentium?</p>
+    <input type="number" id="age" placeholder="Enter your age">
+    <button onclick="conditional()">Click me</button>
+    <script>
+        function conditional(){
+            let val = document.getElementById('age').value
+            let button = document.createElement('button')
+            let button2 = document.createElement('button')
+            button.innerHTML = "First button";
+            button2.innerHTML = 'Second button';
+            if(val<15){
+                document.body.append(button)
+            }else{
+                document.body.append(button2)
+            }
+        }
+    </script>
+</body>
+</html>

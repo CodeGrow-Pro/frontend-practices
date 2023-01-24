@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+<style>
+   .carousel-item img {
+         width: 100%;
+         height: 32pc;
+         padding: 10px;
+    }
+    .card {
+        display: flex;
+        flex-direction: row;
+    }
+    .row1 {
+        width:100%;
+        align-items: center;
+        margin: 20px;;
+    }
+ .h1-text {
+    text-align: center;
+    font-weight: 800;
+    font-size: 35px;
+    padding: 10px;
+    border-bottom: 10px solid gray;
+ }
+ .card img {
+    width: 100%;
+    height: 12pc;
+ }
+.nav-text a{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+.footer {
+    margin-top: 20px;
+    border: 5px solid grey;
+    border-radius: 10px 10px;
+}
+ iframe{
+    width: 300px;
+    height: 150px;
+    border: 5px solid grey;
+    border-radius: 10px;
+}
+.list { 
+    color: white;
+    list-style-type: square;
+
+}
+li{
+    margin: 10px;
+}
+li:last-child{
+    list-style-type: none;
+}
+li:first-child{
+    list-style-type: none;
+}
+</style>
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+         <a class="navbar-brand" href="#">
+            <img src="https://pbs.twimg.com/profile_images/1579916871654117376/Dxd2l1sN_400x400.png" alt="mck donal" width="30" height="24">
+            MckDonald
+         </a>
+         <div class="nav-text">         <a href="#">Home</a>
+            <a href="#">Shop</a>
+            <a href="#">About</a>
+            <a href="#">Login</a>
+            <a href="#">Contact</a></div>
+        </div>
+       
+     </nav>
+     <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="carousel slide" id="slidecontrol"data-bs-ride="carousel" >
+                        <div class="carousel-innner">
+                            <div class="carousel-item active">
+                                <img src="https://b.zmtcdn.com/data/pictures/1/18731821/24a82cf68caa8fe9e359b90521840db9.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*" alt="foods"/>
+                            </div>
+                            <div class="carousel-item ">
+                                <img src="https://b.zmtcdn.com/data/pictures/chains/2/97262/9af382c9e173a2a16345231335445fbe.png?fit=around|750:500&crop=750:500;*,*" alt="foods"/>
+                            </div>
+                            <div class="carousel-item ">
+                                <img src="https://www.eatthis.com/wp-content/uploads/sites/4/2022/01/mcdonalds-big-mac-fries.jpg?quality=82&strip=1" alt="foods"/>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#slidecontrol" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#slidecontrol" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                   
+                </div>
+            </div>
+        </div>
+     </section>
+     <section class="container">
+        <div class="row row1" >
+                     <h1 class="h1-text">PRODUCTS</h1>
+        </div>
+        <div class="row">
+            <div class="col-3">
+                <div class="card">
+                  
+                    <div class="card-body">
+                        <img src="https://www.nykaa.com/beauty-blog/wp-content/uploads/images/issue299/THE-HAUL-OF-FAME-MOST-POPULAR-PRODUCTS-SOLD-ON-NYKAA-THIS-YEAR_OI.jpg" alt="p1" class="card-img-top">
+                       <h4 class="card-title">Cosmatic</h4>
+                       <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque autem quaerat soluta commodi sunt.
+                       </p>
+                       <a href="#" class="btn btn-primary">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card">
+                  
+                    <div class="card-body">
+                        <img src="https://www.nykaa.com/beauty-blog/wp-content/uploads/images/issue299/THE-HAUL-OF-FAME-MOST-POPULAR-PRODUCTS-SOLD-ON-NYKAA-THIS-YEAR_OI.jpg" alt="p1" class="card-img-top">
+                       <h4 class="card-title">Cosmatic</h4>
+                       <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque autem quaerat soluta commodi sunt.
+                       </p>
+                       <a href="#" class="btn btn-primary">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card">
+                  
+                    <div class="card-body">
+                        <img src="https://www.nykaa.com/beauty-blog/wp-content/uploads/images/issue299/THE-HAUL-OF-FAME-MOST-POPULAR-PRODUCTS-SOLD-ON-NYKAA-THIS-YEAR_OI.jpg" alt="p1" class="card-img-top">
+                       <h4 class="card-title">Cosmatic</h4>
+                       <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque autem quaerat soluta commodi sunt.
+                       </p>
+                       <a href="#" class="btn btn-primary">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card">
+                  
+                    <div class="card-body">
+                        <img src="https://www.nykaa.com/beauty-blog/wp-content/uploads/images/issue299/THE-HAUL-OF-FAME-MOST-POPULAR-PRODUCTS-SOLD-ON-NYKAA-THIS-YEAR_OI.jpg" alt="p1" class="card-img-top">
+                       <h4 class="card-title">Cosmatic</h4>
+                       <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque autem quaerat soluta commodi sunt.
+                       </p>
+                       <a href="#" class="btn btn-primary">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+     <footer>
+        <div class="containner">
+            <div class="row bg-dark footer">
+                <div class="col-3">
+                    <ul class="list">
+                        <li> <a class="navbar-brand" href="#">
+                            <img src="https://pbs.twimg.com/profile_images/1579916871654117376/Dxd2l1sN_400x400.png" alt="mck donal" width="30" height="24">
+                            MckDonald
+                         </a></li>
+                         <li>Meerut , delhi road Mohakampur UP</li>
+                        <li>
+                            <div class="address">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6981.995931575369!2d77.72211657277313!3d28.957784816669317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1672133703316!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <ul class="list">
+                        <li>Home</li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <ul class="list">
+                        <li> Shop</li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <ul class="list">
+                        <li>About</li>
+                        <li>Contact Us</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+     </footer>
+</body>
+</html>

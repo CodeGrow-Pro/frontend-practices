@@ -352,5 +352,16 @@
              </div>
         </div>
     </section>
+    <script>
+           const handleVisiblity = ()=>{
+            if(document.visibilityState==='visible'){
+                console.log("user view your page")
+            }else{
+                console.log("user left from  your page")
+            }
+           }
+           document.addEventListener('visiblitychange',handleVisiblity)
+           handleVisiblity()
+    </script>
 </body>
 </html>

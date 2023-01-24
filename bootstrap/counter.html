@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>character Counter app</title>
+    <style>
+        .red {
+            color :red;
+        }
+    </style>
+</head>
+<body>
+<center>
+    <h1>Character count App</h1>
+    <textarea name="texts" id="texts" cols="30" rows="5" class="txtlimits"></textarea>
+    <div class="output"></div>
+</center>
+    <script>
+      const output = document.querySelector('.output');
+      const txt = document.querySelector('textarea')
+      txt.addEventListener('change',textCounter)
+      txt.addEventListener('keyup',textCounter)
+      txt.addEventListener('keydown',textCounter)
+    //better approch
+    // ['change','keyup','keydown'].forEach(function (e) {
+    //     txt.addEventListener(e, textCounter);
+    // });
+    const maxLength = 20;
+    const warnLength = 7;
+    function textCounter(e){
+        let count = txt.value.length;
+        if(count > maxLength){
+            txt.value = txt.value.substring(0,maxLength)
+        }
+        if(count > warnLength){
+            output.classList.add('red')
+        }else {
+            output.classList.remove('red')
+        }
+        output.innerHTML = (maxLength - count) + ' characters left';
+    }  
+    </script>
+</body>
+</html>
